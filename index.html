@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -30,9 +30,10 @@
   </script>
 </head>
 <body class="font-manrope">
-    <header class="container mx-auto">
+    <header class=" bg-gradient-to-b from-[#F4F4F4] to-[#FFFFFF] ">
+      <section class="container mx-auto p-2 lg:p-0">
 <!-- navbar -->
-<div class="navbar bg-base-100">
+<div class="navbar">
     <div class="navbar-start">
      
       <div class="flex items-center space-x-2">
@@ -42,15 +43,15 @@
     </div>
     <div class="navbar-center hidden lg:flex">
       <ul class="menu menu-horizontal  px-1 ">
-        <li class="hover:text-[#737373] bg-none font-bold "><a>Home</a></li>
-        <li class="hover:text-[#737373] font-bold"><a>Services</a></li>
-        <li class="hover:text-[#737373] font-bold"><a>Portfolio</a></li>
-        <li class="hover:text-[#737373] font-bold"><a>Blogs</a></li>
-        <li class="hover:text-[#737373] font-bold"><a>Contact Us</a></li>
+        <li class="hover:text-[#737373] font-bold "><a class="hover:bg-transparent">Home</a></li>
+        <li class="hover:text-[#737373] font-bold"><a class="hover:bg-transparent">Services</a></li>
+        <li class="hover:text-[#737373] font-bold"><a class="hover:bg-transparent">Portfolio</a></li>
+        <li class="hover:text-[#737373] font-bold"><a class="hover:bg-transparent">Blogs</a></li>
+        <li class="hover:text-[#737373] font-bold"><a class="hover:bg-transparent">Contact Us</a></li>
       </ul>
     </div>
     <div class="navbar-end ">
-        <div class="dropdown shadow-md rounded-full">
+        <div class="dropdown  bg-white rounded-full">
             <div tabindex="0" role="button" class="btn btn-square btn-ghost lg:hidden">
                 <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -80,11 +81,23 @@
             </ul>
             
           </div>
-      <div class="hidden lg:flex items-center justify-center space-x-3 ">  <div class="rounded-full bg-[#FFFFFF] shadow-md"><i class="fa-solid fa-magnifying-glass p-2"></i></div>
-      <div class="rounded-full bg-[#FFFFFF] shadow-md"><i class="fa-solid fa-cart-shopping p-2"></i></div>
+      <div class="hidden lg:flex items-center justify-center space-x-3 ">  <div class="rounded-full bg-[#FFFFFF] "><i class="fa-solid fa-magnifying-glass p-2"></i></div>
+      <div class="rounded-full bg-[#FFFFFF] "><i class="fa-solid fa-cart-shopping p-2"></i></div>
     <a class="btn bg-[#ABEF5F] rounded-3xl font-bold text-lg">Book Consult  <div class="bg-[#000000] text-white rounded-full"><i class="fa-solid fa-arrow-right  -rotate-45 p-2"></i></div></a></div>
     </div>
   </div>
+  <!-- bannar -->
+   <section class="space-y-5 py-5">
+    <img class="mx-auto px-10" src="./images/banner.png" alt="">
+    <div class=" mx-auto flex flex-col items-center text-center space-y-8">
+      <h1 class="lg:px-10 px-2 font-extrabold text-3xl lg:text-6xl">
+        A barn house of this design has a striking appearance
+      </h1>
+      <p class="font-medium text-[#494949] lg:w-3/4 text-sm lg:text-base px-1 lg:px-0">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+      <a class="btn bg-[#acef5f90]  rounded-3xl w-full lg:w-auto">Book Consult  <div class="bg-[#ABEF5F] rounded-full"><i class="fa-solid fa-arrow-right  -rotate-45 p-2"></i></div> </a>
+    </div>
+   </section>
+  </section>
     </header>
     <main>
 
